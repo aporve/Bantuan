@@ -1,9 +1,7 @@
-document.getElementById('ym-notification').style.bottom = '70px !important';
+document.getElementById('ym-notification').style.bottom = '70px';
 
 
 //testing
-document.getElementById("ymDivCircle").addEventListener("click", notification());
-
-function notification() {
+document.getElementById("ymDivCircle").addEventListener("click", function() {
     document.getElementById('ym-notification').style.bottom = '70px !important';
-}
+});
