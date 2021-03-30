@@ -1,0 +1,1 @@
+document.getElementById('ym-notification').style.bottom = '70px';
