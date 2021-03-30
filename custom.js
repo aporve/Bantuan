@@ -2,9 +2,8 @@ document.getElementById('ym-notification').style.bottom = '70px !important';
 
 
 //testing
+document.getElementById("ymDivCircle").addEventListener("click", notification);
 
-var test1 = document.getElementById('ymDivCircle')
-
-test1.addEventListener('click', () => {
+function notification() {
     document.getElementById('ym-notification').style.bottom = '70px !important';
-})
+}
