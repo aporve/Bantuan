@@ -1,4 +1,6 @@
-document.getElementById('ym-notification').style.bottom = '70px';
+
+
+setTimeout(function(){ document.getElementById('ym-notification').style.bottom = '70px';}, 2000);
 var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutationRecord) {
         document.getElementById('ym-notification').style.bottom = '70px';
